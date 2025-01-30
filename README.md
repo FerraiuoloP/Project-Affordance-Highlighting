@@ -11,13 +11,20 @@ This is an adaptation and extension of the 3DHighlighter paper for the affordanc
 ## Installation
 
 Install and activate the conda environment with the following commands. 
-```
-1.conda env create --file env.yml
 
-2.follow the instructions at the end of the yml file to finish the setup
+```conda env create --file env.yml```
 
-3.conda activate 3DHighlighter
-```
+```conda activate 3DHighlighter```
+
+Then, to install the correct version of kaolin:
+
+```pip install kaolin==0.17.0 -f https://nvidia-kaolin.s3.us-east-2.amazonaws.com/torch-2.1.0_cu118.html```
+
+and to install trimesh:
+```pip install trimesh```
+
+Note: ipykernel is required.
+
 Note: The installation will fail if run on something other than a CUDA GPU machine.
 
 #### System Requirements
