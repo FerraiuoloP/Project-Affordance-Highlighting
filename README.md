@@ -20,11 +20,13 @@ Then, to install the correct version of kaolin:
 
 ```pip install kaolin==0.17.0 -f https://nvidia-kaolin.s3.us-east-2.amazonaws.com/torch-2.1.0_cu118.html```
 
-To install trimesh and sklearn:
+To install trimesh, sklearn and opencv:
+
 ```pip install trimesh```
+
 ```pip install sklearn```
 
-
+``pip install opencv-python``
 
 
 Note: ipykernel is required.
