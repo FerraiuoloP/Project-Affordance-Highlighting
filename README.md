@@ -23,14 +23,21 @@ Then, to install the correct version of kaolin:
 and to install trimesh:
 ```pip install trimesh```
 
+
 Note: ipykernel is required.
 
 Note: The installation will fail if run on something other than a CUDA GPU machine.
+
 
 #### System Requirements
 - Python 3.10
 - CUDA 11
 - 16 GB GPU
+
+### Dataset (for part 2 and 3)
+Download the `full_shape_train_data.pkl` dataset from [here](https://drive.google.com/drive/folders/1s5W0Nfz9NEN8gP14tge8GuouUDXs2Ssq), and place it in the `data_bench/` folder (inside each Part folder).
+
+
 
 ### Note on Reproducibility
 Due to small non-determinisms in CLIP's backward process and the sensitivity of our optimization, results can vary across different runs even when fully seeded. If the result of the optimization does not match the expected result, try re-running the optimization.
