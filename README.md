@@ -5,7 +5,7 @@
 <a href="https://arxiv.org/abs/2212.11263"><img src="https://img.shields.io/badge/arXiv-3DHighlighter-b31b1b.svg" height=22.5></a>
 <a href="https://threedle.github.io/3DHighlighter"><img src="https://img.shields.io/website?down_color=lightgrey&down_message=offline&label=Project%20Page&up_color=lightgreen&up_message=online&url=https%3A%2F%2Fpals.ttic.edu%2Fp%2Fscore-jacobian-chaining" height=22.5></a>
 
-This is an adaptation and extension of the 3DHighlighter paper for the affordance highlighting project. The original code can be found [here](https://github.com/threedle/3DHighlighter)
+This is an adaptation and extension of the 3DHighlighter paper. The official code can be found [here](https://github.com/threedle/3DHighlighter)
 
 
 ## Installation
